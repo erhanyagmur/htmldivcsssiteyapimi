@@ -1,0 +1,161 @@
+body{
+	background-image:url(Resim/arkaplan.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	 background-size: cover;
+	
+}
+
+#site{
+	width:700px;
+	height:600px;
+	border:0px solid #000;
+	background-color:#099;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	padding:5px;
+}
+#ust{
+	height:150px;
+	border:0px solid #000;
+	background-color:#099;
+	color:#FFF;
+	
+}
+#y_menu{
+	height:50px;
+	border:0px solid #000;
+	background-color:#099;
+	color:#FFF;
+	}
+#y_menu ul{
+	list-style-type:none;
+	margin-top:4px;
+	margin-left:20px;
+	
+}
+#y_menu a{
+	text-decoration:none;
+	width:120px;
+	height:20px;
+	background-color:#F00;
+	color:#FFF;
+	padding:5px;
+	display:block;
+	text-align:center;
+	
+}
+#y_menu ul>li{
+	float:left;
+	position:relative;
+	padding:2px;
+	
+}
+#y_menu a:hover{
+    background-color:#f39c12; 
+}
+#y_menu li ul{
+	
+    display:none;
+    position:absolute;
+    width:100px;
+	left:-60px;
+}
+#y_menu ul li:hover ul{
+    display:block;
+}
+#y_menu  ul li {
+    display:block; 
+}
+#d_menu{
+	height:350px;
+	width:200px;
+	border:0px solid #000;
+	background-color:#099;
+	color:#FFF;
+	float:left;
+}
+#d_menu ul {
+    list-style-type:none;
+	}
+#d_menu ul li{
+  position:relative;
+}
+#d_menu a{
+	background-color:#30F;
+	color:#FF0;
+	width:75px;
+	text-decoration:none;
+	display:block;
+	padding:5px;
+	border:1px solid silver;
+}
+#d_menu a:hover{
+	background-color:#f39c12;
+	color:white;
+}
+#d_menu  li ul{
+  position:absolute;
+
+  left:45px;
+
+  top:0px;
+  
+  display:none;
+  
+}
+#d_menu li:hover ul{
+display:block;
+}
+#icerik{
+	height:350px;
+	border:0px solid #000;
+	background-color:#099;
+	float:left;
+	width:496px;
+}
+#alt{
+	clear:both;
+	height:40px;
+	border:0px solid #000;
+	background-color:#099;
+	line-height:40px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.3em;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	}
+#resim{
+	width:250px;
+	height:150px;
+	float:left;
+	background-color:#099;
+	
+}
+#yazi{
+	height:150px;
+	width:448px;
+	float:left;
+	background-color:#099;
+	line-height:150px;
+	text-align:center;
+	font-size:18pt;
+}
+img{
+	width:250px;
+	height:150px;
+	border-radius:10px;
+}
+iframe{
+	width:496px;
+	height:350px;
+	
+}
+
+
+
+
